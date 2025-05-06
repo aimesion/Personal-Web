@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #f0f0f0;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .top-section {
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 50px 20px;
+    border-radius: 12px;
+  }
+  
+  .container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffd700;
+  }
+  
+  .tagline {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    color: #ddd;
+  }
+  
+  .jump-link {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #ffd700;
+    color: #111;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jump-link:hover {
+    background-color: #e6be00;
+  }
+  
+  .about-section {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bio-card {
+    max-width: 800px;
+    background-color: #222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+  }
+  
+  .bio-card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffd700;
+  }
+  
+  .bio-card p {
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    margin: 10px 0;
+  }
+  
